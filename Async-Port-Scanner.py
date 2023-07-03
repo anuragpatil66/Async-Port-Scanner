@@ -274,10 +274,10 @@ def range_from_string(range_string):
 async def main():
     while True:
         # Display the welcome message
-        print("--------------------------------------------------------------- Welcome To Port Scanner --------------------------------------------------------------")
+        print("------------------------------------------------------------ Welcome To Async Port Scanner -----------------------------------------------------------")
 
         # Display the scanning options
-        print("========================Scanning Options:======================")
+        print("=======================Scanning Options:====================")
         print("1. Scan a single IP")
         print("2. Scan an IP range")
         print("3. Scan a subnet")
@@ -309,7 +309,7 @@ async def main():
         elif choice == "2":
             # If the user chooses to scan an IP range
             start_ip = input("Enter the starting IP address (e.g., 192.168.1.1): ")
-            end_ip = input("Enter the ending IP address: ")
+            end_ip = input("Enter the ending IP address (e.g., 192.168.1.6): ")
 
             # Validate the starting and ending IP addresses
             while not is_valid_ip(start_ip) or not is_valid_ip(end_ip):
@@ -350,7 +350,7 @@ async def main():
 
         elif choice == "4":
             # If the user chooses to terminate the program
-            print("Thank You For Using Port Scanner")
+            print("Thank You For Using Async Port Scanner")
             return
 
         else:
@@ -516,9 +516,9 @@ def save_results_to_file(results, file_path, output_format, file_extension):
                     file.write(f"Operating System: {os_info}\n")  # Writes the operating system information if available
                 file.write("---------------------\n")  # Writes a separator between each result
         print(f"Results saved to {file_path} in plain text format.")
-        print("Thank You For Using Port Scanner")
+        print("Thank You For Using Async Port Scanner")
     elif output_format == "4":  # Checks if the output format is to terminate the code
-        print("Thank You For Using Port Scanner")
+        print("Thank You For Using Async Port Scanner")
         return  # Exits the function
 
 asyncio.run(main())  # Calls the main function asynchronously

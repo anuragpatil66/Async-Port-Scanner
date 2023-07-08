@@ -406,7 +406,7 @@ async def main():
             print(f"Invalid file path. The file path should have the extension '{file_extension}'.") # Prints an error message indicating that the file path does not have the correct extension
             
         else:
-            print(f"Invalid file path format. Please provide a valid file path in the format C:/Users/anura/Desktop/Ethical/result{file_extension} or C:\\Users\\anura\\Desktop\\Ethical\\result{file_extension}")  # Prints an error message indicating that the file path format is invalid
+            print(f"Invalid file path format. Please provide a valid file path in the format X:/Path/Path/result_file{file_extension} or X:\\Path\\Path\\result_file{file_extension}")  # Prints an error message indicating that the file path format is invalid
            
         file_path = input(f'Enter the "{file_extension[1:].upper()}" file path to save the results: ') # Prompts the user to enter a valid file path with the appropriate file extension
 

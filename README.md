@@ -1,6 +1,5 @@
 # Done by Anurag Patil - https://www.linkedin.com/in/anurag-patil-2a9b0022a/
-# Async-Port-Scanner
-Unleash the Power of Networks! Lightning-fast asynchronous scanning and service identification for all your cybersecurity exploration needs.
+# Async-Port-Scanner - Unleash the Power of Networks! Lightning-fast asynchronous scanning and service identification for all your cybersecurity exploration needs.
 
 The AsyncPortScanner is a powerful tool for scanning network ports and identifying services running on target IP addresses. It utilizes asynchronous programming techniques to efficiently scan multiple IPs and ports simultaneously, providing fast and accurate results.
 

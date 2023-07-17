@@ -17,6 +17,6 @@ Error Handling: The tool gracefully handles exceptions, such as connection timeo
 
 The AsyncPortScanner offers flexibility, speed, and reliability in network port scanning tasks. It is a valuable tool for network administrators, security professionals, and developers working with network-related applications.
 
-Note: Due to character limitations, the full explanation of the code couldn't be provided here. Please refer to the code documentation and comments for a detailed explanation of each function and its usage.
-
 Feel free to use and contribute to the AsyncPortScanner project, and happy scanning!
+
+Note: Due to character limitations, the full explanation of the code couldn't be provided here. Please refer to the code documentation and comments for a detailed explanation of each function and its usage.
